@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <title>CKEditor</title>
-        <script src="bower_components/emojione/lib/js/emojione.js"></script>
         <script src="bower_components/ckeditor/ckeditor.js"></script>
     </head>
     <body>
@@ -14,7 +13,7 @@
             <script>
                 CKEDITOR.plugins.addExternal('emojione', '../../bower_components/ckeditor-emojione/', 'plugin.js');
                 CKEDITOR.config.extraPlugins = 'emojione';
-                CKEDITOR.replace( 'editor' );
+                CKEDITOR.replace('editor');
             </script>
         </form>
     </body>
